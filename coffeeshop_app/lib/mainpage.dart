@@ -26,7 +26,7 @@ class Mainpage extends StatelessWidget {
               )),
         ],
         title: Text(
-          "Coffee Shop ",
+          "Coffee Shop",
           style: TextStyle(color: const Color.fromARGB(255, 245, 241, 241)),
         ),
         centerTitle: true,
