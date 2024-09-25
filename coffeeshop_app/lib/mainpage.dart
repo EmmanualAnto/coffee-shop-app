@@ -26,8 +26,8 @@ class Mainpage extends StatelessWidget {
               )),
         ],
         title: Text(
-          "Coffee Shop",
-          style: TextStyle(color: Colors.white),
+          "Coffee Shop ",
+          style: TextStyle(color: const Color.fromARGB(255, 245, 241, 241)),
         ),
         centerTitle: true,
         backgroundColor: const Color.fromARGB(64, 0, 0, 0),
@@ -44,8 +44,7 @@ class Mainpage extends StatelessWidget {
           ),
           itemCount: products.products.length,
           itemBuilder: (context, index) {
-            return card(
-                product: products.products[index]);
+            return card(product: products.products[index]);
           },
         ),
       ),
